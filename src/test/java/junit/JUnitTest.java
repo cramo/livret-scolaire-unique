@@ -35,7 +35,7 @@ public class JUnitTest {
 		 */
 		driver.get("https://portail.ac-amiens.fr/alogin/ct_logon_mixte.jsp");
 		LoginPage login = PageFactory.initElements(driver, LoginPage.class);
-		login.connection("Jdomalain", "583cxp");
+		login.connection("", "");
 	}
 
 	@Test
